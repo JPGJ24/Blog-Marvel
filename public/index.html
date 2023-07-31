@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Blog-Marvel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
+    <meta name="description" content="">
+    <meta name="author" content="juan-pablo-gallego-jaramillo">
+    
+    <!-- Your styles -->
+    <link href="css/style.css" rel="stylesheet" media="screen">  
+
+  
+  </head>
+  <body>
+        <!-- Nav-->
+        <nav>
+            <div class="container">
+                <div class="row-fluid">
+                    <div>
+                        <a href="index.html"><img src="img/navbar/marvel-logo-0.png"
+                             alt="Logo-Marvel" 
+                            class="img-logo"></a>
+                    </div>
+                    <!-- Menu-->
+                    <ul id="menu" class="span9 sf-menu">
+                        <li><a href="index.html">BLOG</a></li>
+                    </ul>
+                    <!-- End Menu-->
+                </div>
+            </div>
+        </nav>
+        <!-- End Nav-->
+
+        <!-- Section Title -->
+        <div class="section_title about">
+            <div class="container">
+                <div class="row-fluid"> 
+                    <div class="container-welcome">
+                        <h1 class="h1-welcome">
+                        Blog - Marvel<span class="span-animation">&#160;</span>
+                        </h1>
+                        <div id="charactersContainer"></div>
+
+                    </div>                    
+                </div>
+            </div>            
+        </div>
+        <!-- End Section Title -->
+
+        <!-- End content info -->
+        <section class="container content_info">
+           
+            <!-- End Newsletter Box -->
+
+            <!-- Title-->
+            <div class="titles">
+                <br>
+                <h1>Exclusive marvel characters</h1>
+            </div>
+            <!-- End Title-->
+
+            <div class="row-fluid">
+                  <!-- Blog Post-->
+                   <div class="span9">
+                        <!-- Post-->
+                        <div  id="data-characters">                       
+                        </div>
+                        <!-- End Post-->
+
+                        <!-- Pagination-->
+                        <ul class="pagination" id="pagination">   
+
+                        </ul>
+                        <!-- End Pagination-->
+                   </div>
+                   <!-- End Blog Post-->      
+            </div>
+
+        </section>
+        <!-- End content info-->
+
+        <section class="instructions">
+            <h1 class="title-step">Step by step to register your characters</h1>
+            <div class="container-step">
+ <!-- Step 1 -->     <a href="https://www.marvel.com/signin" target="_blank">
+                      <div class="step" id="step1">
+                          <div class="thumbnail">
+                            <div class="caption-head">
+                              <em class="caption-icon icon-check icon-big"></em>                            
+                              <h2 class="caption-title">Register</h2>
+                            </div>
+                          </div>
+                      </div>
+                      </a>
+                    <!-- Step 2 --> 
+                    <a href="https://www.marvel.com/signin" target="_blank"> 
+                    <div class="step" id="step2">
+                          <div class="thumbnail">
+                            <div class="caption-head">
+                              <em class="caption-icon icon-edit icon-big"></em>
+                                <h2 class="caption-title">Publish</h2>
+                            </div>
+                          </div>
+                      </div>
+                    </a>
+                    <!-- Step 3 -->
+                    <a href="https://www.marvel.com/signin" target="_blank">
+                    <div class="step" id="step3">
+                        <div class="thumbnail">
+                          <div class="caption-head">
+                            <em class="caption-icon icon-credit-card icon-big"></em>
+                              <h2 class="caption-title">reports</h2>
+                          </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer area - footer_medium -->
+        <footer class="section_area footer_medium">
+            <div class="container">
+                <div class="row-fluid">
+
+                   <!-- testimonials -->
+                   <div class="span3">
+                      <h3>Contact Us</h3>                        
+                        <ul class="contact_footer">
+                            <li>
+                                <i class="icon-envelope"></i>jp199924@gmail.com
+                            </li>
+                            <li>
+                                <i class="icon-headphones"></i>
+                                <a href="https://wa.me/573244791824?text=Hola" target="_blank">(+57 3244791824)</a>
+                             </li>
+                            <li class="location">
+                                <i class="icon-home"></i>Colombia - Medellin
+                            </li>                                   
+                        </ul>               
+                    </div>
+                    <!-- End testimonials -->
+
+                    <!-- Contact Footer -->
+                    <div class="span3">
+                        <div class="testimonials">
+                            <p>"Marvel is a comic book publisher known for its popular superheroes and the Marvel Cinematic Universe."</p>
+                            <span class="arrow_testimonials"></span>
+                        </div>        
+                        <h6 class="testimonial_autor">Juan Pablo Gallego - Web Developer</h6> 
+                    </div>
+                    <!-- End Contact Footer -->
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer area - footer_medium -->
+
+        <!-- Footer area - footer_down -->
+        <footer class="section_area footer_down">
+            <div class="container">
+                <div class="row-fluid">
+                   <div class="span6">
+                        <p>&copy; 2023 - Blog Marvel. All rights reserved.</p>
+                    </div>
+                    <div class="span6">
+                        <ul class="social">
+                            <li  class="tooltip_hover" title="Linkedin">
+                                <a href="https://www.linkedin.com/in/juan-pablo-gallego-jaramillo-6b6068242/" target="_blank"
+                                ><i class="icon-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer area- footer_down -->
+        <script src="js/api-characters.js"></script>
+        <script src="js/step-animation.js"></script>
+  </body>
+</html>
